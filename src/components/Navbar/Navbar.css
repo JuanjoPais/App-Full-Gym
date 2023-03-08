@@ -1,0 +1,52 @@
+.navbar {
+	width: 100%;
+	height: min-content;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+
+	background: rgb(0, 0, 0);
+	background: linear-gradient(
+		180deg,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(124, 124, 124, 1) 100%,
+		rgba(0, 212, 255, 1) 100%
+	);
+	color: rgb(190, 188, 188);
+	font-size: medium;
+}
+
+.logo {
+	color: rgb(190, 188, 188);
+	font-size: medium;
+}
+
+.links {
+	display: flex;
+}
+
+.redesNavbar {
+	display: flex;
+}
+
+.containerNavbar {
+	display: flex;
+	justify-content: space-between;
+	gap: 40%;
+	align-items: center;
+}
+.btnQueEs {
+	border-left: solid white 1px;
+	color: rgb(190, 188, 188);
+	width: max-content;
+}
+
+.btnRegistro {
+	color: rgb(190, 188, 188);
+	font-size: medium;
+}
+.red {
+	color: rgb(190, 188, 188);
+	font-size: medium;
+}
