@@ -1,3 +1,4 @@
+import Frase from "../Frase/Frase";
 import "./frases.css";
 
 const Frases = () => {
@@ -5,23 +6,23 @@ const Frases = () => {
 		<div className="containerPantallaFrases">
 			<div className="containerFrases">
 				<div className="divFrase">
-					<p className="frase">Ganá tiempo.</p>
+					<Frase texto={"Ganá tiempo."} from={-500} to={40} />
 				</div>
 				<div className="divFrase">
-					<p className="frase">Gestioná facilmente las rutinas.</p>
+					<Frase texto={"Gestioná facilmente las rutinas"} from={500} to={0} />
 				</div>
 				<div className="divFrase">
-					<p className="frase">Expandí tu alcance.</p>
+					<Frase texto={"Expandí tu alcance."} from={-500} to={40} />
 				</div>
 
 				<div className="divFrase">
-					<p className="frase">Potenciá tu negocio.</p>
+					<Frase texto={"Potenciá tu negocio."} from={500} to={0} />
 				</div>
 				<div className="divFrase">
-					<p className="frase">Alguien puede pensar en los niños?</p>
+					<Frase texto={"Otra frase."} from={-500} to={40} />
 				</div>
 				<div className="divFrase">
-					<p className="frase">Qué más ponemos?</p>
+					<Frase texto={"Otra frase."} from={500} to={0} />
 				</div>
 			</div>
 		</div>

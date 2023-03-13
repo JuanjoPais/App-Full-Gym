@@ -13,12 +13,14 @@
 
 .containerFrases {
 	display: grid;
+
 	grid-template-columns: 50% auto;
 	grid-template-rows: 1fr 1fr 1fr;
 	height: 100%;
 	align-items: center;
 	background-image: url("../../../public/images/adulto-joven-haciendo-deporte-interior-gimnasio\ \(1\).jpg");
 	background-size: cover;
+	background-position: center;
 
 	background-repeat: no-repeat;
 }
@@ -28,4 +30,5 @@
 	background-color: black;
 	opacity: 70%;
 	font-style: italic;
+	font-size: 50%;
 }
