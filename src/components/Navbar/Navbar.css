@@ -1,4 +1,4 @@
-.navbar {
+/* .navbar {
 	width: 100%;
 	height: min-content;
 	display: flex;
@@ -49,4 +49,19 @@
 .red {
 	color: rgb(190, 188, 188);
 	font-size: medium;
+} */
+
+.navBar {
+	background: rgb(0, 0, 0);
+	background: linear-gradient(
+		180deg,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(124, 124, 124, 1) 100%,
+		rgba(0, 212, 255, 1) 100%
+	);
+	color: rgb(190, 188, 188);
+}
+
+.links {
+	margin: 0 35px;
 }
