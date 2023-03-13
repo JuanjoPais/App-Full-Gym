@@ -5,6 +5,7 @@ import ListOptions from "./components/ListOptions/ListOptions";
 import OptionDetail from "./components/OptionDetail/OptionDetail";
 import Navbar from "./components/Navbar/Navbar";
 import Portada from "./components/Portada/Portada";
+import Frases from "./components/Frases/Frases";
 
 function App() {
 	return (
@@ -17,6 +18,7 @@ function App() {
 						element={
 							<>
 								<Portada />
+								<Frases />
 								<ListOptions />
 							</>
 						}

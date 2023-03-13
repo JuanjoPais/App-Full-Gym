@@ -1,0 +1,31 @@
+.containerPantallaFrases {
+	height: 100vh;
+	padding: 5%;
+
+	background: rgb(0, 0, 0);
+	background: linear-gradient(
+		180deg,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(124, 124, 124, 1) 100%,
+		rgba(0, 212, 255, 1) 100%
+	);
+}
+
+.containerFrases {
+	display: grid;
+	grid-template-columns: 50% auto;
+	grid-template-rows: 1fr 1fr 1fr;
+	height: 100%;
+	align-items: center;
+	background-image: url("../../../public/images/adulto-joven-haciendo-deporte-interior-gimnasio\ \(1\).jpg");
+	background-size: cover;
+
+	background-repeat: no-repeat;
+}
+.frase {
+	display: block;
+	margin: 25px;
+	background-color: black;
+	opacity: 70%;
+	font-style: italic;
+}
