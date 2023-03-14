@@ -9,20 +9,24 @@ const Frases = () => {
 					<Frase texto={"Ganá tiempo."} from={-500} to={40} />
 				</div>
 				<div className="divFrase">
-					<Frase texto={"Gestioná facilmente las rutinas"} from={500} to={0} />
+					<Frase
+						texto={"Gestioná facilmente las rutinas"}
+						from={500}
+						to={100}
+					/>
 				</div>
 				<div className="divFrase">
 					<Frase texto={"Expandí tu alcance."} from={-500} to={40} />
 				</div>
 
 				<div className="divFrase">
-					<Frase texto={"Potenciá tu negocio."} from={500} to={0} />
+					<Frase texto={"Potenciá tu negocio."} from={500} to={100} />
 				</div>
 				<div className="divFrase">
 					<Frase texto={"Otra frase."} from={-500} to={40} />
 				</div>
 				<div className="divFrase">
-					<Frase texto={"Otra frase."} from={500} to={0} />
+					<Frase texto={"Otra frase."} from={500} to={100} />
 				</div>
 			</div>
 		</div>

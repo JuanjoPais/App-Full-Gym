@@ -19,6 +19,7 @@ function App() {
 							<>
 								<Portada />
 								<Frases />
+
 								<ListOptions />
 							</>
 						}
