@@ -37,7 +37,7 @@
 	font-size: medium;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 	.portada {
 		background-image: url("../../../public/images/vista-frontal-persona-trans-telefono-inteligente\ \(2\).jpg");
 	}

@@ -20,7 +20,7 @@ function NavigationBar() {
 					<CgGym className="logo" />
 				</Navbar.Brand>
 
-				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
+				<Navbar.Toggle aria-controls="responsive-navbar-nav" className="tog" />
 				<Navbar.Collapse id="responsive-navbar-nav">
 					<Nav className="me-auto">
 						<Nav.Link href="#features" className="queEs">

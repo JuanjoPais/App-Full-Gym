@@ -13,6 +13,10 @@
 	font-size: 50px;
 }
 
+.navbar {
+	--bs-navbar-padding-y: -0.5rem;
+}
+
 .links {
 	margin: 0 35px;
 	display: flex;
