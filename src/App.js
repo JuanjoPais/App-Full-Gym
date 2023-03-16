@@ -6,12 +6,14 @@ import OptionDetail from "./components/OptionDetail/OptionDetail";
 import Navbar from "./components/Navbar/Navbar";
 import Portada from "./components/Portada/Portada";
 import Frases from "./components/Frases/Frases";
+import WhatsappLink from "./components/WhatsappLink/WhatsappLink";
 
 function App() {
 	return (
 		<div className="App">
 			<BrowserRouter>
 				<Navbar />
+				<WhatsappLink />
 				<Routes>
 					<Route
 						path="/"

@@ -33,9 +33,16 @@ function NavigationBar() {
 								<FaInstagram />
 							</Nav.Link>
 
-							<Nav.Link>
+							<a
+								href="https://wa.me/5491165188743?text=Hola,%20estoy%20interesado%20en%20su%20servicio
+										"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="wasapNav"
+							>
 								<FaWhatsapp />
-							</Nav.Link>
+							</a>
+
 							<Nav.Link>
 								<FaTiktok />
 							</Nav.Link>

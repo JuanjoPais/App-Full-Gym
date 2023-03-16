@@ -30,3 +30,17 @@
 	margin: 0 35px;
 	font-size: small;
 }
+
+.wasapNav {
+	color: rgb(158, 158, 158);
+}
+
+.wasapNav:hover {
+	color: rgb(189, 187, 187);
+}
+.wasapNav:link {
+	text-decoration: none;
+}
+.wasapNav:visited {
+	text-decoration: none;
+}
