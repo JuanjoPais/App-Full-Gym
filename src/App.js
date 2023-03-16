@@ -12,8 +12,9 @@ function App() {
 	return (
 		<div className="App">
 			<BrowserRouter>
-				<Navbar />
 				<WhatsappLink />
+				<Navbar />
+
 				<Routes>
 					<Route
 						path="/"
