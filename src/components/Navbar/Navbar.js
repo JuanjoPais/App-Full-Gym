@@ -8,7 +8,7 @@ import {CgGym} from "react-icons/cg";
 
 function NavigationBar() {
 	return (
-		<Navbar
+		<Navbar 
 			collapseOnSelect
 			expand="lg"
 			bg="dark"
@@ -16,15 +16,31 @@ function NavigationBar() {
 			className="navBar"
 		>
 			<Container>
+			
 				<Navbar.Brand>
 					<CgGym className="logo" />
 				</Navbar.Brand>
-
+			
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" className="tog" />
 				<Navbar.Collapse id="responsive-navbar-nav">
 					<Nav className="me-auto">
-						<Nav.Link href="#features" className="queEs">
-							Qué es GymBro App?
+						<Nav.Link href="#features" className="palabras">
+							HOME
+						</Nav.Link>
+						<Nav.Link href="#features" className="palabras">
+							Clases
+						</Nav.Link>
+						<Nav.Link href="#features" className="palabras">
+							Zonas
+						</Nav.Link>
+						<Nav.Link href="#features" className="palabras">
+							Servicios
+						</Nav.Link>
+						<Nav.Link href="#features" className="palabras">
+							Nosotros
+						</Nav.Link>
+						<Nav.Link href="#features" className="palabras">
+							Contacto
 						</Nav.Link>
 					</Nav>
 					<Nav>
@@ -47,10 +63,11 @@ function NavigationBar() {
 								<FaTiktok />
 							</Nav.Link>
 						</div>
-
+{/**
 						<Nav.Link>
 							<Button variant="dark">Registrate</Button>
 						</Nav.Link>
+					*/}
 					</Nav>
 				</Navbar.Collapse>
 			</Container>

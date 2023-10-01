@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Portada from "./components/Portada/Portada";
 import Frases from "./components/Frases/Frases";
 import WhatsappLink from "./components/WhatsappLink/WhatsappLink";
+import Footer from "./components/Footer/Footer";
 
 function App() {
 	return (
@@ -31,6 +32,7 @@ function App() {
 					<Route path="/detail/:productId" element={<OptionDetail />} />
 				</Routes>
 			</BrowserRouter>
+			<Footer/>
 		</div>
 	);
 }
